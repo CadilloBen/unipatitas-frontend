@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d5f5d;
+    padding: 1em;
+    color: white;
+  
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+  
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+  
+      &:hover {
+        color: #aed9d6;
+      }
+    }
+  }
+  
+  .banner {
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.genbeta.com%2Fa-fondo%2Fstable-diffusion-guia-a-fondo-que-como-usarlo-ejemplos-como-generar-imagenes-frase&psig=AOvVaw24Of1wajUGVUniS69WdZbB&ust=1733351188575000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNih0MPSjIoDFQAAAAAdAAAAABAE') no-repeat center center/cover;
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    .btn {
+      background-color: #f4a261;
+      color: rgb(194, 153, 153)94, 153, 153);
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  }
+  
+  .footer-content {
+    background-color: #2d5f5d;
+    padding: 1em;
+    color: white;
+    text-align: center;
+  
+    .social-links a {
+      color: #f4a261;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  }
+  

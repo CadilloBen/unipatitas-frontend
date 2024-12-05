@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  
+    h2 {
+      color: #2d5f5d;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    li a {
+      color: #2d5f5d;
+      text-decoration: none;
+      font-size: 1.2em;
+  
+      &:hover {
+        color: #f4a261;
+      }
+    }
+  }
+  
